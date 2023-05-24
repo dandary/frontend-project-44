@@ -1,3 +1,4 @@
 #!/usr/bin/env node
+import sayGretetings from "../src/cli";
 
-console.log('Welcome to the Brain Games!');
+sayGretetings();
