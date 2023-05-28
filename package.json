@@ -3,7 +3,18 @@
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/dandary/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/dandary/frontend-project-44/actions)",
   "main": "index.js",
-  "type": "module",
+  "bin": {
+    "frontend-project-44": "brain-games.js"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "eslint-coenfig-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "~2.27.5"
+
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,17 +22,10 @@
     "type": "git",
     "url": "git+https://github.com/dandary/frontend-project-44.git"
   },
-  "keywords": [
-    "y"
-  ],
-  "author": "Timeeva Alia",
+  "author": "Alia Timeeva",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dandary/frontend-project-44/issues"
   },
-  "homepage": "https://github.com/dandary/frontend-project-44#readme",
-  "bin": {
-    "code.": "brain-games.js",
-    "brain-games": "bin/brain-games.js"
-  }
+  "homepage": "https://github.com/dandary/frontend-project-44#readme"
 }
