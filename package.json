@@ -1,7 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/dandary/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/dandary/frontend-project-44/actions)",
+  "description": "Brain games from Alia",
   "main": "index.js",
   "bin": {   
   "brain-games": "bin/brain-games.js",
