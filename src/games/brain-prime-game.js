@@ -1,5 +1,5 @@
 import gameEngine from '../index.js';
-import getRandomNumber from '../utils.js';
+import randomNumber from '../helper.js';
 
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const isPrime = (n) => {
@@ -11,7 +11,7 @@ const isPrime = (n) => {
   return true;
 };
 const getQuestionAndAnswer = () => {
-  const anotherGameQuestion = getRandomNumber(2, 100);
+  const anotherGameQuestion = randomNumber(2, 100);
   const expectedAnswer = isPrime(anotherGameQuestion) ? 'yes' : 'no';
   return [anotherGameQuestion, expectedAnswer];
 };

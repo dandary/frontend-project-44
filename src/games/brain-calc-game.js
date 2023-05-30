@@ -1,5 +1,5 @@
 import gameEngine from '../index.js';
-import getRandomNumber from '../utils.js';
+import randomNumber from '../helper.js';
 
 const description = 'What is the result of the expression?';
 const operators = ['+', '-', '*'];
@@ -20,8 +20,8 @@ const calculateOperations = (randomOperator, firstOperand, secondOperand) => {
 };
 const getQuestionAndAnswer = () => {
   const randomOperator = operators[randomNumber(0, 3)];
-  const firstOperand = getRandomNumber(0, 11);
-  const secondOperand = getRandomNumber(0, 11);
+  const firstOperand = randomNumber(0, 11);
+  const secondOperand = randomNumber(0, 11);
   const anotherGameQuestion = `${firstOperand} ${randomOperator} ${secondOperand}`;
   const expectedAnswer = calculateOperations(randomOperator, firstOperand, secondOperand);
   return [anotherGameQuestion, expectedAnswer];
