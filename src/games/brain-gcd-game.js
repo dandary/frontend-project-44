@@ -1,4 +1,4 @@
-import gameEngine from '../gameLogic.js';
+import gameEngine from '../index.js';
 import getRandomNumber from '../utils.js';
 
 const description = 'Find the greatest common divisor of given numbers.';
