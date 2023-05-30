@@ -10,4 +10,6 @@ parserOptions:
 rules: 
 no-console: 0
 import/extensions: 0
+ eol-last: 0,
+ no-multiple-empty-lines: ["error", { "max": 1, "maxEOF": 0 }],
 no-underscore-dangle: [2, { "allow": ["__filename", "__dirname"] }]
